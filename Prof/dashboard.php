@@ -33,7 +33,7 @@ if (!$teacher) {
 // Get filter parameters
 $academic_year = isset($_GET['academic_year']) ? $_GET['academic_year'] : '2024/2025';
 $semester = isset($_GET['semester']) ? $_GET['semester'] : 'S1';
-$module = isset($_GET['module']) ? $_GET['module'] : 'prog';
+$module = isset($_GET['module']) ? $_GET['module'] : 'algo';
 
 // Get all modules for dropdown
 $modules_query = "SELECT * FROM modules ORDER BY module_name";
@@ -102,7 +102,7 @@ if (!empty($students)) {
         $grades[] = $grade;
         $total_grades += $grade;
         
-        if ($grade >= 10) {
+        if ($grade >= 12) {
             $passed_count++;
         }
     }
@@ -337,7 +337,7 @@ if (!empty($students)) {
                         <?php foreach ($students as $student): ?>
                           <?php 
                             $grade = round($student['calculated_grade'], 2);
-                            $status = $grade >= 10 ? 'V' : 'NV';
+                            $status = $grade >= 12 ? 'V' : 'NV';
                             $statusClass = $status == 'V' ? 'status-pass' : 'status-fail';
                           ?>
                           <tr>

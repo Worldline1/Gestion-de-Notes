@@ -47,18 +47,18 @@ CREATE TABLE IF NOT EXISTS grades (
 
 -- Insert sample teachers
 INSERT INTO teachers (teacher_id, full_name, email) VALUES
-('ENS-2025-423', 'Prof. Michel Dupont', 'michel.dupont@ensao.ac.ma'),
-('ENS-2025-424', 'Prof. Sarah Martin', 'sarah.martin@ensao.ac.ma'),
-('ENS-2025-425', 'Prof. Ahmed Benali', 'ahmed.benali@ensao.ac.ma')
+('ENS-2025-423', 'Prof. Mohammed Ouadoud', 'mohammed.ouadoud@ump.ac.ma'),
+('ENS-2025-424', 'Prof. Bouchra Setta', 'bouchra.setta@ump.ac.ma'),
+('ENS-2025-425', 'Prof. Mohammed Madani', 'mohammed.madani@ump.ac.ma')
 ON DUPLICATE KEY UPDATE full_name = VALUES(full_name);
 
 -- Insert sample students
 INSERT INTO students (student_id, full_name, email, program) VALUES
-('GI2023456', 'YOUNES BOUAZZAOUI', 'younes.bouazzaoui@student.ensao.ac.ma', 'Génie Informatique'),
-('GI2023457', 'SARA MIMOUNI', 'sara.mimouni@student.ensao.ac.ma', 'Génie Informatique'),
-('GI2023458', 'MOHAMED TAZI', 'mohamed.tazi@student.ensao.ac.ma', 'Génie Informatique'),
-('GI2023459', 'FATIMA ALAOUI', 'fatima.alaoui@student.ensao.ac.ma', 'Génie Informatique'),
-('GI2023460', 'KHALID BENSAID', 'khalid.bensaid@student.ensao.ac.ma', 'Génie Informatique')
+('GI2023456', 'YOUNES BOUAZZAOUI', 'younes.bouazzaoui@ump.ac.ma', 'MGSI'),
+('GI2023457', 'ILIAS AMRANI', 'ilias.amrani@ump.ac.ma', 'MGSI'),
+('GI2023458', 'ABDESSAMAD TAIBI', 'abdessamad.taibi@ump.ac.ma', 'MGSI'),
+('GI2023459', 'YASSIR LASRI', 'yassir.lasri@ump.ac.ma', 'MGSI'),
+('GI2023460', 'RAYANE RHOUL', 'rayane.rhoul@ump.ac.ma', 'MGSI')
 ON DUPLICATE KEY UPDATE full_name = VALUES(full_name);
 
 -- Insert sample modules
