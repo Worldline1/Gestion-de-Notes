@@ -200,7 +200,7 @@ if (isset($_POST['grades']) && !empty($_POST['grades'])) {
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="Prof-note.php"
+              <a class="nav-link active" href="notes.php"
                 ><i class="fas fa-chart-bar"></i> Notes</a
               >
             </li>
