@@ -165,7 +165,7 @@ if (!empty($students)) {
           </ul>
           <div class="user-profile">
             <img src="image/Avatar.png" alt="Avatar Enseignant" />
-            <span><?php echo htmlspecialchars($teacher['full_name']); ?> <br> <a class="logout" href="login.html">Logout</a></span>
+            <span><?php echo htmlspecialchars($teacher['full_name']); ?> <br> <a class="logout" href="../Login/login.html">Logout</a></span>
           </div>
         </div>
       </div>
