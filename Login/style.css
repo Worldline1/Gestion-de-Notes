@@ -83,7 +83,6 @@ section {
   border-radius: 5px;
   font-size: 16px;
   color: var(--primary);
-  padding-left: 10px;
 }
 .input-box input::placeholder {
   padding-left: 15px;
@@ -163,7 +162,7 @@ section {
   }
 }
 
-/* prof-tdb page */
+/* Prof/dashboard.php page */
 .navbar {
   background: linear-gradient(90deg, var(--secondary) 0%, var(--primary) 100%);
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -409,7 +408,7 @@ section {
     overflow-x: auto;
   }
 }
-/* etudient-tdb page */
+/* Etudiant/dashboard.php page */
 .students-table th,
 .students-table td {
   vertical-align: middle;
@@ -460,7 +459,7 @@ section {
   color: #6c757d;
   font-style: italic;
 }
-/* etudient-tdb page */
+/* /Etudiant/dashboard.php page */
 .grades-table th,
 .grades-table td {
   vertical-align: middle;
