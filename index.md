@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Header 1
+# Announcement
 
 _This file will be updated later._
 
