@@ -1,5 +1,5 @@
-title: Gestion de Notes
-description: Where all my files lay
+title: Gestion de Notes (Grading System)
+description: Using PHP, HTML, CSS and JavaScript this project was meant for the teachers to insert their student's grades in a phpMyAdmin database
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-hacker
