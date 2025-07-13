@@ -4,5 +4,5 @@ layout: default
 
 # Announcement
 
-_This page will be updated LATER_
+_This page will be updated later_
 
